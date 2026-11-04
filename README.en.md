@@ -58,8 +58,12 @@ Changing the paper width or the default code page re-renders everything already 
 
 ### Installation
 
+**Option 1: download the executable (Windows).** Get the `.zip` from the [Releases](https://github.com/thiagosmagalhaes/escpos-virtual-printer-emulator/releases/latest) page, extract it and run `escpos_emulator.exe`. No Rust needed.
+
+**Option 2: build from source**
+
 ```bash
-git clone <this-repository-url>
+git clone https://github.com/thiagosmagalhaes/escpos-virtual-printer-emulator.git
 cd escpos-virtual-printer-emulator
 cargo run --release
 ```
